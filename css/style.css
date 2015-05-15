@@ -31,6 +31,7 @@ body {
 }
 .navbar-nav > li > a {
 	padding-bottom: 0;
+	color: #666;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
