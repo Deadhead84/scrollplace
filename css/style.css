@@ -1,9 +1,28 @@
 body {
   padding-top: 85px;
+  font-family: "Open Sans", sans-serif;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway", sans-serif;
+	color: #406c96;
+}
+
+.highlight-primary {
+	background: #406C96;
+	color: #fff;
+	padding: 5px 25px;
+	display: inline;
+	line-height: 60px; 
+	border-radius: 5px;
+}
+
+a {
+	color: #406C96;
 }
 
 .navbar {
@@ -59,4 +78,59 @@ body {
 
 .navbar li.active a {
 	color: #fff;
+}
+
+section {
+	padding: 30px 0;
+	overflow: hidden;	
+}
+
+h1 {
+	margin: 30px 0px;
+}
+
+.section-showcase img {
+	width: 100%;
+}
+.section-default {
+	background: #f7f8f7;
+}
+
+.section-primary {
+	background: #406c96;
+	color: #fff;
+}
+
+.list-feature {
+	list-style: none;
+	line-height: 2em;
+	padding-bottom: 5px 0;
+	font-size: 18px;
+}
+
+.fa {
+	margin-right: 10px;
+	color: #406C96;
+	font-size: 1.5em;
+}
+
+.fa-white {
+	color: #fff;
+}
+
+.fa-lg {
+	font-size:4em;
+}
+
+.content-icons h4 {
+	color: #fff;
+}
+
+.content-icons {
+	text-align: center;
+}
+
+.content-icons i {
+	display: block;
+    margin-bottom: 15px;
 }
